@@ -4,8 +4,9 @@
 - install MS Code (not needed but I use the CLI of it for the setup)
 - Create a folder structure somewhere that looks like this
 
-<projectName>
+projectName
 |->backend
+  
 |->frontend
 
 - open MS Code and oeen <projectName>
@@ -16,8 +17,8 @@
 - npm install mongoose
 - npm install nodemon
 
-- copy over the /backend/src/ folder to your <projectName/backend/ folder
-- replace <projecName>/backup/package.json with /backup/package.json
+- copy over the /backend/src/ folder to your projectName/backend/ folder
+- replace projectName/backend/package.json with /mern_template/backend/package.json
 
 ## backend
 ### what's working
