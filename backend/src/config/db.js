@@ -5,7 +5,7 @@ import mongoose from "mongoose"
 export const connectDB = async () => {
     //if successfull
     try {
-        await mongoose.connect('mongodb://192.168.1.163:27017/database_name')
+        await mongoose.connect(process.env.MONGO_URI)
         console.log("mongodb connected successfully")
     //if not successful
     } catch (error) {
