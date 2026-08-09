@@ -5,6 +5,7 @@
 - Create a folder structure somewhere that looks like this
 
 projectName
+
 |->backend
   
 |->frontend
