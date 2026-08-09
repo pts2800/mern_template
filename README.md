@@ -19,7 +19,18 @@ projectName
 - npm install nodemon
 
 - copy over the /backend/src/ folder to your projectName/backend/ folder
-- replace projectName/backend/package.json with /mern_template/backend/package.json
+  
+- edit the package.json file that was generated:
+  - modify "scripts" to the following
+
+ ```
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "production": "node src/server.js"
+  },
+```
+- modify "type": to "type":"module"
 
 ## backend
 ### what's working
