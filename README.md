@@ -32,6 +32,7 @@ projectName
   },
 ```
 - modify "type": to "type":"module"
+- change the .env file to reflect your MongoDB. Note if your DB is a public address, don't put this file on git. 
 
 ## backend
 ### what's working
