@@ -17,6 +17,7 @@ projectName
 - npm install express
 - npm install mongoose
 - npm install nodemon
+- npm install dotenv
 
 - copy over the /backend/src/ folder to your projectName/backend/ folder
   
